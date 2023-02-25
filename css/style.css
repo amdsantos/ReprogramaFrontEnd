@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+}
+
+.banner {
+    background-image: url("../img/banner-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner h1 p{
+    color: #ffff;
+    padding: 10px;
+}
+
+button{
+    background-color: #ffff;
+    color: #7E4598;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.descricao, .habilidades{
+    width: 40%;
+    display: inline-block;
+}
