@@ -14,8 +14,8 @@
     align-items: center;
 }
 
-.banner h1 p{
-    color: #7E4598;
+.banner h1, p{
+    color: #ffff;
     padding: 10px;
 }
 
