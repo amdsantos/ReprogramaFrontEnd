@@ -1,9 +1,16 @@
 *{
     margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
 }
 
 .banner {
-    background-image: url("../img/banner-bg.png");
+    background-image: url("../img/banner1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -14,19 +21,88 @@
     align-items: center;
 }
 
-.banner h1, p{
+.banner h1, 
+.banner p{
     color: #ffff;
     padding: 10px;
 }
 
-button{
-    background-color: #ffff;
-    color: #7E4598;
-    padding: 10px;
-    border-radius: 30px;
+.banner button:hover{
+    background-color: #7E4598;
+    color: #ffff;
+    transition: 0.5s;
 }
 
-.descricao, .habilidades{
-    width: 40%;
-    display: inline-block;
+.banner button{
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #ffff;
+    color: #7E4598;
+    cursor: pointer;
+}
+
+.sobre{
+    width: 100%;
+    height: 60vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+.descricao {
+    width: 45%;
+    float: left;
+}
+
+.descricao h2{
+    line-height: 20px;
+    margin: 0 20px 62px;
+}
+
+.descricao p {
+    line-height: 20px;
+    margin: 20px;
+}
+
+.descricao button{
+    margin: 20px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #7E4598;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.descricao button:hover{
+    background-color: #ffffff;
+    color: #7E4598;
+    border-color: #7E4598;
+    transition: 0.5s;
+}
+
+.habilidades{
+    width: 45%;
+    float: right;
+    margin: 40px;
+}
+
+ul{
+    line-height: 28px;
+}
+.habilidades h3 {
+    margin: 0 0px 10px;
+}
+
+.redes-sociais{
+    background-color: #7E4598;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    height: 30px;
+    width: 30px;
+    margin: 10px;
 }
